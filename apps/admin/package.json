@@ -1,0 +1,13 @@
+{
+  "name": "@app-admin/base",
+  "version": "0.1.0",
+  "main": "src/config.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "files": [
+    "dist"
+  ]
+}
