@@ -1,5 +1,7 @@
 # 多应用项目模板
 
+> micro-app + pnpm + react 18 + vue 3 + vite
+
 ## 使用方式
 
 1. 拉取到到本地

@@ -10,6 +10,9 @@ if (import.meta.env.DEV) {
   microApp.plugins = {
     modules: {
       [apps.home.name]: [viteDevLoader(apps.home.origin, apps.home.basePath)],
+      [apps.login.name]: [
+        viteDevLoader(apps.login.origin, apps.login.basePath),
+      ],
     },
   };
 }
