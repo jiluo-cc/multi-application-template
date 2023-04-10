@@ -1,0 +1,13 @@
+{
+  "name": "@app-admin/admin-about",
+  "version": "0.1.0",
+  "main": "",
+  "scripts": {
+    "dev": "live-server --mount=/admin-about/:./ --no-browser --cors --port=9000",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "files": [
+    "dist"
+  ]
+}

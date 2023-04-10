@@ -11,4 +11,9 @@ export const apps = {
     origin: "http://localhost:7000",
     basePath: "/login/",
   },
+  static: {
+    name: "static",
+    origin: "http://localhost:9000",
+    basePath: "/admin-about/",
+  },
 };

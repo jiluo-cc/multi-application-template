@@ -9,6 +9,12 @@ function App() {
       <div>main app</div>
       <div>{count}</div>
       <button onClick={() => setCount((a) => a + 1)}>hidden</button>
+      <micro-app
+        name={apps.static.name}
+        url={apps.static.origin + apps.static.basePath}
+        inline
+        disablesandbox
+      ></micro-app>
       {count % 2 == 0 ? (
         <micro-app
           name={apps.home.name}

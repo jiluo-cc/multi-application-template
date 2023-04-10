@@ -3,5 +3,5 @@ const title = "Vue 子应用";
 </script>
 
 <template>
-  <div>{{ title }}</div>
+  <div>{{ title }}12</div>
 </template>
