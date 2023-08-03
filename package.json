@@ -19,7 +19,7 @@
     "@vitejs/plugin-vue": "4.1.0",
     "live-server": "^1.2.2",
     "typescript": "5.0.4",
-    "vite": "4.2.1",
+    "vite": "4.2.3",
     "vue-tsc": "1.2.0"
   },
   "author": "jiluo.cc"
